@@ -297,7 +297,7 @@ class Home extends React.Component {
                             
                            </Col>
                                 
-                           <Col lg={9} md={9} id='secondColumn'>
+                           <Col lg={9} md={12} id='secondColumn'>
                            <p className='graphCaption'>By 2020, we will make up nearly<br />half of all consumers </p>
                             <div className='progress animateOut' >
                                 <Parallax
