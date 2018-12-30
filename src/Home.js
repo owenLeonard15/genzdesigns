@@ -8,7 +8,6 @@ import ScrollProgress from './ScrollProgress';
 import CircularProgressbar from 'react-circular-progressbar';
 import { Parallax } from 'react-scroll-parallax';
 import 'react-circular-progressbar/dist/styles.css';
-import testImg from './images/rothProfile.jpg';
 
 let screenWidth = 0;
 
@@ -20,8 +19,7 @@ class Home extends React.Component {
             curScroll: 0,
             isScrolling: false,
             percentage: 0,
-            intervalId: null,
-            curImage: testImg
+            intervalId: null
         }
         this.scrollToTop = this.scrollToTop.bind(this);
         this.startMove = this.startMove.bind(this);
