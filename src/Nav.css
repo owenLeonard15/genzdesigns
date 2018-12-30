@@ -1,0 +1,75 @@
+.fa-bars, .fa-times{
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    font-size: 25px;
+    text-align: center;
+    z-index: 100;
+  }
+  
+  .fas:hover{
+    cursor: pointer;
+  }
+  
+  
+  #logo{
+  max-height: 5rem;
+  position: fixed;
+  top: 50px;
+  left: 75px;
+  z-index: 100;
+  }
+  
+  
+  #navList{
+    position: fixed;
+    margin: 30px 0 0 100px;
+    display: flex;
+    justify-content: left;
+    z-index: 200;
+  }
+  #navList p{
+    margin: 15px;
+    font-size: 1.7rem;
+    z-index: 200;
+    transition: linear .1s;
+  }
+  
+  #navList p:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  #navList p.active{
+    background: black;
+    padding: .3rem .5rem .3rem .5rem;
+    border-radius: .5rem;
+  }
+  
+  
+  
+  /*responsive*/
+  @media only screen and (max-width: 675px){
+  
+    #navList{
+      font-size: 2rem;
+      top: 60px;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  
+    
+  
+    #navList p{
+      padding: 10px;
+      font-size: 2rem;
+    }
+  
+  }

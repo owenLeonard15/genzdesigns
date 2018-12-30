@@ -1,0 +1,19 @@
+#indicator{
+    position: fixed;
+    top: 30vh;
+    right: 0;
+    z-index: 1;
+}
+
+
+.circle:hover{
+    cursor: pointer;
+    fill: transparent;
+}
+
+@media only screen and (max-width: 675px) {
+    #indicator{
+        visibility: hidden;
+    }
+    
+}
