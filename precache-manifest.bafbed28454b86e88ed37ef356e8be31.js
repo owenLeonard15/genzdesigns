@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/genzdesigns/static/js/runtime~main.4bb9650e.js"
   },
   {
-    "revision": "cf775d085875eae02616",
-    "url": "/genzdesigns/static/js/main.cf775d08.chunk.js"
+    "revision": "08edf598fb2cc1289061",
+    "url": "/genzdesigns/static/js/main.08edf598.chunk.js"
   },
   {
     "revision": "fe478bdd6c52db292145",
     "url": "/genzdesigns/static/js/1.fe478bdd.chunk.js"
   },
   {
-    "revision": "cf775d085875eae02616",
-    "url": "/genzdesigns/static/css/main.0960dfe3.chunk.css"
+    "revision": "08edf598fb2cc1289061",
+    "url": "/genzdesigns/static/css/main.93346069.chunk.css"
   },
   {
     "revision": "fe478bdd6c52db292145",
     "url": "/genzdesigns/static/css/1.357b064b.chunk.css"
   },
   {
-    "revision": "519c6b970cbfc5e64bfc56577d17e7a6",
+    "revision": "336d7243dd8940a23aa3fbadbbab21a1",
     "url": "/genzdesigns/index.html"
   }
 ];
