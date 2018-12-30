@@ -2,7 +2,7 @@
   "name": "genzv3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://owenleonard15.github.io/genzdesigns"
+  "homepage": "http://owenleonard15.github.io/genzdesigns",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.1",
