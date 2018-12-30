@@ -211,7 +211,13 @@ p#description{
   }
 
   #secondColumn{
-    min-width: 45%;
+    margin-left: 10%;
+    width: 45%;
+  }
+
+  .progress{
+    max-width: 90%;
+
   }
 
 
@@ -506,25 +512,11 @@ p#description{
       padding-left: 10px;  
     }
   
-    #secondColumn{
-      min-width: 35%;
-      margin: -10vh 0 0 0;
-      padding: 0 0 0 0;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .progress{
-      margin-left: -35vw;
-    }
 
     .graphCaption{
       height: 100px;
       color: black;
-      margin: 100px 10px 0 10px;
+      margin: 100px 0 100px 0;
       padding: 0;
       font-size: 1.5em;
       z-index: 200;

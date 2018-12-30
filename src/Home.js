@@ -299,7 +299,7 @@ class Home extends React.Component {
                                 
                            <Col lg={9} md={9} id='secondColumn'>
                            <p className='graphCaption'>By 2020, we will make up nearly<br />half of all consumers </p>
-                            <div className='progress animateOut' style={{padding: '0 0 0 15vh'}}>
+                            <div className='progress animateOut' >
                                 <Parallax
                                     className="custom-class"
                                     offsetYMax={-20}
@@ -328,6 +328,7 @@ class Home extends React.Component {
                                                 stroke: '#fff',
                                             },
                                             trail: { stroke: 'transparent' },
+                                            
                                             }}
                                         />
                                  </Parallax> 
