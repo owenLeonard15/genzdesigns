@@ -36,7 +36,6 @@ class Home extends React.Component {
           });
 
         screenWidth = window.innerWidth;
-          console.log(screenWidth);
           
       }
 
@@ -194,7 +193,6 @@ class Home extends React.Component {
             this.setState({curSection: 4});
         }
     }
-
 
     render(){
         const percentageOne = this.state.percentage * 4;

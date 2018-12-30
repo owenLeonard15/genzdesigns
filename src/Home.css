@@ -534,6 +534,11 @@ p#description{
       width: 100vw;
       margin: 0;
     }
+
+    .overlay{
+      background: rgba(0,0,0,.5);
+      filter: blur(0);
+    }
 }
     
   
